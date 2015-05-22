@@ -3,7 +3,7 @@ class Complex
 {	
 	public:
 		Complex();
-		Complex(float Im, float Re);
+		Complex(float Re, float Im);
 
 		Complex operator +(Complex p1);
 		Complex operator -(Complex p1);
