@@ -51,7 +51,7 @@ Complex Complex::conj()
 }
 Complex Complex::operator /(Complex p1)
 {
-	Complex cur = Complex(Im, Re);
+	Complex cur = Complex(Re, Im);
 	Complex q = p1.conj();
 	float z = p1.abs();
 	Complex c = q*cur;
